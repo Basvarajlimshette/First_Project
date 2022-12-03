@@ -43,7 +43,6 @@ public class Testloginpage extends Testlogreset{
 		LoginPage page1=new LoginPage(driver);
 		page1.enterpassword("abcd");
 		page1.enterpassword("abc123");
-		Thread.sleep(5000);
 		page1.loginbutton();
 		
 	}
