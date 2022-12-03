@@ -37,16 +37,7 @@ public class Testloginpage extends Testlogreset{
 		
 	}
 	
-	@Test
-	public void validcredential() throws InterruptedException {
-		
-		LoginPage page1=new LoginPage(driver);
-		page1.enterpassword("abcd");
-		page1.enterpassword("abc123");
-		Thread.sleep(5000);
-		page1.loginbutton();
-		
-	}
+	
 	
 	
 	
