@@ -18,11 +18,16 @@ public class TimeFeature {
 		
 	}
 	
+	
 
 	public void correctTime() {
 		
-		System.out.println("Time ="+ "10:00 Am");
+		String name ="your Welcome";
+		
+		System.out.println("Time  is ="+ "10:00 Am");
 	}
 	
 
 }
+
+
